@@ -1,0 +1,182 @@
+/*
+$sv :#fce2e5
+$zol :#b78933
+$first :#ffb5e5
+$second :#545758
+$text-col: #333
+*/
+
+a ,a:hover{
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'gothic';
+	src: url('fonts/g/gothic.eot');
+	src: local('gothic'), url('fonts/g/gothic.woff') format('woff'), url('fonts/g/gothic.ttf') format('truetype');
+}
+
+body {
+	font-family: 'gothic' !important;
+	background-color: #fce2e5;
+}
+
+.menu{
+	/* height: 60px; */
+	background-color: #fce2e5;
+	
+	text-transform: capitalize;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.50);
+	margin-bottom: 20px;
+	    position: fixed;
+    z-index: 111;
+    width: 100%;
+    background-color: #fce2e5;
+}
+
+.menu .nav-item p{
+	/* display: inline-block; */
+	/* padding: 5px 15px; */
+	margin: 0px;
+}
+.menu .work_time{
+	margin-right: 10px
+}
+.menu .phones{
+	margin: 0px 20px;
+}
+
+.menu .socials,
+.menu .cart,
+.menu .user{
+	padding: 10px;
+    position: relative;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+}
+.menu .socials i,
+.menu .cart i,
+.menu .user i{
+	margin: auto 0px;
+    font-size: 21px;
+    color: #B78933;
+}
+
+
+.menu .nav-item .nav-link{
+	color: #333;
+	/* font-size: 20px; */
+}
+.menu .nav-item .nav-link:hover{
+	color: #000;
+}
+
+.menu .form-control:focus{
+    background-color: #fff;
+    border-color: #c3c3c3a3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.44);
+}
+
+.menu .navbar-nav.socials{
+	margin-right: 30px
+}
+
+
+.title{}
+.title h1{
+	text-transform: capitalize;
+}
+
+
+.burger-btn{
+	margin: 0px 5px;
+	color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+	
+}
+.burger-btn:focus{
+	outline:none;
+}
+
+.carousel-indicators li{
+	    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 50%;
+}
+
+
+/*хиты*/
+.hits{
+	
+}
+.hits_item{
+	/* height: 200px; */
+	padding: 0px;
+	/* height: 225px; */
+    width: 100%;
+    display: block;
+    
+}
+.hits_item img{
+	-webkit-border-radius: initial;
+            border-radius: initial;
+}
+.hits_row_first .hits_item:nth-child(1) img{	
+	border-top-left-radius: calc(.25rem - 1px);
+}
+.hits_row_first .hits_item:nth-child(3) img{
+	
+	border-top-right-radius: calc(.25rem - 1px);
+}
+.hits_row_second .hits_item:nth-child(1) img{
+	border-bottom-left-radius: calc(.25rem - 1px);
+}
+.hits_row_second .hits_item:nth-child(3) img{
+	border-bottom-right-radius: calc(.25rem - 1px);
+}
+/*хиты*/
+
+
+.catalog .hits_item{
+	overflow:hidden;
+}
+.catalog img{
+	-moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.catalog img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+/*отзывы*/
+.comments{}
+.comment{
+	background: #FFF;
+	-webkit-border-radius: calc(.25rem - 1px);
+	        border-radius: calc(.25rem - 1px);
+	padding: 15px;
+}
+/*отзывы*/
+
+
+.contacts{
+	background: #FFF;
+	-webkit-border-radius: calc(.25rem - 1px);
+	        border-radius: calc(.25rem - 1px);
+}
+.footer{
+	height: 60px;
+	background: #000;
+}
