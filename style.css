@@ -172,9 +172,25 @@ body {
 
 
 .contacts{
-	background: #FFF;
-	-webkit-border-radius: calc(.25rem - 1px);
-	        border-radius: calc(.25rem - 1px);
+	margin-bottom: 80px;
+}
+.contacts .phones{
+	/* //margin-bottom: 60px; */
+}
+.contacts .contacts_emails{
+	margin: 40px 0px;
+}
+
+.contacts .socials{
+	display: block;
+}
+.contacts .socials .contacts_socials_item{
+	display: inline-block;
+	margin: 0px 20px;
+}
+.contacts .socials .contacts_socials_item i{
+	font-size: 100px;
+	color: #B78933;
 }
 .footer{
 	height: 60px;

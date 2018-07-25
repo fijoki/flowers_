@@ -270,7 +270,7 @@
 
 		  <div class="form-group">
 		    <label for="exampleFormControlTextarea1">Комментарий</label>
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите ваш отзыв"></textarea>
 		  </div>
 		  <button type="submit" class="btn btn-primary">Отправить</button>
 		</form>
@@ -279,9 +279,9 @@
 
 		<!-- контакты -->
 		<div class="title" style="text-align: center;margin: 80px"><h1 class="display-4">контакты</h1></div>
-		<div class="row justify-content-center">
-			<div class="col-8">
-				
+		<div class="row justify-content-center contacts">
+
+			<div class="col-4">
 				<div class="phones" style="">
 					<h3>Телефоны:</h3>
 					<!-- <p> -->
@@ -289,30 +289,39 @@
 						<h1 style="font-size:20px">(093) 010 38 88</h1>
 					<!-- </p> -->
 				</div>
-
-				<h3>flowers@gmail.com</h3>
-
-				<div class="socials">
-					
+				
+				<div class="contacts_emails">
+					<h3>flowers@gmail.com</h3>
 				</div>
 				
-				
-			
-				
-				
-
-
+				<div class="socials">
+					<div class="contacts_socials_item">
+						<i class="fab fa-instagram"></i>
+					</div>
+					<div class="contacts_socials_item">
+						<i class="fab fa-facebook"></i>
+					</div>
+				</div>
 			</div>
-			<div class="col-4">
-					<h3>Заказать обратный звонок:</h3>
-				<form>
-				  <div class="form-group">
-				    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Имя">
-				    <br>
-					<input class="form-control" type="text" placeholder="номер телефона">
-				  </div>
-				  <button type="submit" class="btn btn-primary">Отправить</button>
-				</form>
+
+			<div class="col-8">
+				<div class="contacts_send-email">
+					<div class="form-group">
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Отравьте нам письмо"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Отправить</button>
+				</div>
+
+				<div class="contacts_phone-form" style="margin: 20px 0px">
+					<form>
+					  <div class="form-group">
+					  	<label for="contacts_phone-form-input">Заказать обратный звонок"</label>
+					    <input type="text" class="form-control" id="contacts_phone-form-input" placeholder="Введите номер телефона">
+					  </div>
+					  <button type="submit" class="btn btn-primary">Заказать</button>
+					</form>
+				</div>
+
 			</div>
 		</div>
 		
