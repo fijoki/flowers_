@@ -32,6 +32,27 @@
 	});
 </script>
 
+
+<!-- </header> -->
+<!-- menu_end -->
+
+<!--right menu-->
+<?php include('inc/right_menu.php'); ?>
+<!--right menu end-->
+
+
+
+
+
+
+
+
+
+	<div class="container-fluid" style="padding: 0px;">
+
+
+
+
 <nav class="navbar navbar-expand-sm navbar-dark menu">
    <a class="navbar-brand" href="#"><img src="img/logo_new_min.png" alt="logo" width="50px"></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,18 +102,9 @@
    </div>
 </nav>
 
-<!-- </header> -->
-<!-- menu_end -->
-
-<!--right menu-->
-<?php include('inc/right_menu.php'); ?>
-<!--right menu end-->
 
 
-
-
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: 40px 0px;margin-top: 50px">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-bottom: 40px">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -118,212 +130,272 @@
     <span class="sr-only">Next</span>
   </a> -->
 </div>
-
-
-
-
-	<div class="container">
-		
 		
 	
 
 
 <!-- преймущества -->
-<div class="title" style="text-align: center;margin-bottom: 80px"><h1 class="display-4">о нас</h1></div>
 
-<div class="row" style="text-align: center;margin-bottom: 120px">
-   <div class="col">
-      <img  src="https://static.tildacdn.com/tild3639-6533-4634-a332-313438373863/icons8-flowers-100.png" alt="Generic placeholder image" width="100" height="100">
-      <h2>Большой выбор</h2>
-      <p>Наш основной фокус - флористика, но у нас вы можете целиком подготовиться к предстоящему празднику.</p>
-      
-   </div>
+
+<div class="row justify-content-center" style="text-align: center;margin-bottom: 120px">
+	<div class="title" style="text-align: center;margin-bottom: 80px"><h1 class="display-4">о нас</h1></div>
+
+	<div class="col-8 row">
+	   <div class="col">
+	      <img  src="https://static.tildacdn.com/tild3639-6533-4634-a332-313438373863/icons8-flowers-100.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Большой выбор</h2>
+	      <p>Наш основной фокус - флористика, но у нас вы можете целиком подготовиться к предстоящему празднику.</p>
+	      
+	   </div>
+	   <!-- /.col-lg-4 -->
+	   <div class="col">
+	      <img src="https://static.tildacdn.com/tild3036-6632-4365-a334-333363316136/icons8-delivered-100.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Быстрая доставка</h2>
+	      <p>После заказа мы оперативно связываемся с вами и осуществляем доставку. Бесплатная доставка в пределах Одессы.</p>
+	      
+	   </div>
+	   <!-- /.col-lg-4 -->
+	   <div class="col">
+	      <img  src="https://static.tildacdn.com/tild3133-3630-4431-b634-663161633038/icons8-card-payment-.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Удобная оплата</h2>
+	      <p>Оплата курьеру при получении или оплата на банковскую карту.</p>
+	      
+	   </div>
    <!-- /.col-lg-4 -->
-   <div class="col">
-      <img src="https://static.tildacdn.com/tild3036-6632-4365-a334-333363316136/icons8-delivered-100.png" alt="Generic placeholder image" width="100" height="100">
-      <h2>Быстрая доставка</h2>
-      <p>После заказа мы оперативно связываемся с вами и осуществляем доставку. Бесплатная доставка в пределах Одессы.</p>
-      
+
    </div>
-   <!-- /.col-lg-4 -->
-   <div class="col">
-      <img  src="https://static.tildacdn.com/tild3133-3630-4431-b634-663161633038/icons8-card-payment-.png" alt="Generic placeholder image" width="100" height="100">
-      <h2>Удобная оплата</h2>
-      <p>Оплата курьеру при получении или оплата на банковскую карту.</p>
-      
+
+   <div class="col-8 row">
+		<div class="col">
+	      <img  src="https://static.tildacdn.com/tild3133-3630-4431-b634-663161633038/icons8-card-payment-.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Удобная оплата</h2>
+	      <p>Оплата курьеру при получении или оплата на банковскую карту.</p>
+	      
+	   </div>
+
+	   <div class="col">
+	      <img  src="https://static.tildacdn.com/tild3639-6533-4634-a332-313438373863/icons8-flowers-100.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Большой выбор</h2>
+	      <!-- <p>Наш основной фокус - флористика, но у нас вы можете целиком подготовиться к предстоящему празднику.</p> -->
+	   </div>
+	   <!-- /.col-lg-4 -->
+	   <div class="col">
+	      <img src="https://static.tildacdn.com/tild3036-6632-4365-a334-333363316136/icons8-delivered-100.png" alt="Generic placeholder image" width="100" height="100">
+	      <h2>Быстрая доставка</h2>
+	      <!-- <p>После заказа мы оперативно связываемся с вами и осуществляем доставку. Бесплатная доставка в пределах Одессы.</p> -->
+	   </div>
+	   <!-- /.col-lg-4 -->   
    </div>
-   <!-- /.col-lg-4 -->
+
 </div>
 <!-- преймущества end -->
-
-<div class="title" style="text-align: center;margin-bottom: 120px"><h1 class="display-4">хит продаж</h1></div>
 		<!-- hits -->
-		<div class="row w-100 hits hits_row_first">
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://www.florist.com.ua/catalog/bouquet103_5_800.jpg" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
-			</div>
+		<div class="title" style="text-align: center;margin-bottom: 120px"><h1 class="display-4">хит продаж</h1></div>
+		<div class="row justify-content-center w-100 hits hits_row_first" style="margin: 0px;">
+			
+			<!-- <div class="col-8 row"> -->
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
+				</div>
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="img/bouquet103_5_800_new.jpg" data-holder-rendered="true">
+				</div>
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
+				</div>
+			<!-- </div> -->
 		</div>
-		<div class="row w-100 hists hits_row_second">
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://www.florist.com.ua/catalog/bouquet103_5_800.jpg" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="http://www.florist.com.ua/catalog/bouquet103_5_800.jpg" data-holder-rendered="true">
-			</div>
+		<div class="row justify-content-center w-100 hists hits_row_second" style="margin: 0px;">
+			<!-- <div class="col-8 row"> -->
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="http://www.florist.com.ua/catalog/bouquet103_5_800.jpg" data-holder-rendered="true">
+				</div>
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="http://news-important.ru/wp-content/uploads/2018/02/5465865896348956.jpg" data-holder-rendered="true">
+				</div>
+				<div class="col hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 100%; width: 100%; display: block;" src="http://www.florist.com.ua/catalog/bouquet103_5_800.jpg" data-holder-rendered="true">
+				</div>
+			<!-- </div> -->
 		</div>
 		<!-- hits_end -->
 
 		<!-- каталог -->
-		<div class="title" style="text-align: center;margin: 80px;"><h1 class="display-4">каталог</h1></div>
-		<div class="row catalog "style="margin-bottom: 120px;">
-		<div class="row w-100 hists">
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164d12d5f71%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164d12d5f71%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+		
+		<div class="row justify-content-center catalog "style="margin-bottom: 120px;padding-bottom: 80px;">
+			<div class="title" style="text-align: center;margin: 80px;"><h1 class="display-4">каталог</h1></div>
+			<div class="col-lg-8 col-md-8 col-sm-12 row w-100 hists">
+				<div class="col-lg-3 col-md-3 col-sm-12 hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://cs1.livemaster.ru/storage/b5/43/4f7955a17ad2d105856f634c3efa--tsvety-i-floristika-buket-tsvetov-yagodnyj-miks.jpg" data-holder-rendered="true">
+					<p>Цветы</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/golyi-tort-s-fruktami-svadebnyi-recept-s-foto_1499683557_37_max.jpg" data-holder-rendered="true">
+					<p>Торты</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/tulips-2071075_960_720.jpg" data-holder-rendered="true">
+					<p>Вазы</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 hits_item">
+					<img class="img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://images.ua.prom.st/220212195_w640_h2048_banner.jpg?PIMAGE_ID=220212195" data-holder-rendered="true">
+					<p>Шарики</p>
+				</div>
+				<!-- src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164d12d5f71%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164d12d5f71%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" -->
 			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164d12d5f71%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164d12d5f71%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164d12d5f71%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164d12d5f71%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-			</div>
-			<div class="col hits_item">
-				<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_164d12d5f71%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_164d12d5f71%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22114%22%20y%3D%22120.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-			</div>
-		</div>
-
 		</div>
 		<!-- каталог_end -->
 
 		<!-- доставка -->
-		<div class="title" style="text-align: center;margin: 80px;margin-bottom: 40px;"><h1 class="display-4">доставка</h1></div>
-		<div class="row" style="text-align: center;margin: 120px 0px;margin-top:80px">
-		   <div class="col-lg-4">
-		      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-		      <h2>Инкогнито</h2>
-		      <p>Наш курьер подарит букет/подарок анонимно</p>
-		   </div>
-		   <!-- /.col-lg-4 -->
-		   <div class="col-lg-4">
-		      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-		      <h2>Доставка</h2>
-		      <p>Мы привезем букет в указанное время, по указанному адресу и вы сможете на месте рассчитаться с курьером</p>
-		   </div>
-		   <!-- /.col-lg-4 -->
-		   <div class="col-lg-4">
-		      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-		      <h2>Подарок</h2>
-		      <p>Мы привезем букет в указанное время и место в качестве подарка от вас</p>
-		   </div>
-		   <!-- /.col-lg-4 -->
+		
+		<div class="row justify-content-center delivery" style="">
+			<div class="title" style="text-align: center;margin: 80px;margin-bottom: 80px"><h1 class="display-4">доставка</h1></div>
+			<div class="col-8 row">
+			   <div class="col-lg-4 delivery_item">
+			   		<i class="fas fa-user-secret"></i>
+			      <!-- <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+			      <h2>Инкогнито</h2>
+			      <p>Наш курьер подарит букет/подарок анонимно</p>
+			   </div>
+			   <!-- /.col-lg-4 -->
+			   <div class="col-lg-4 delivery_item">
+			   	<i class="fas fa-box"></i>
+			      <!-- <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+			      <h2>Доставка</h2>
+			      <p>Мы привезем букет в указанное время, по указанному адресу и вы сможете на месте рассчитаться с курьером</p>
+			   </div>
+			   <!-- /.col-lg-4 -->
+			   <div class="col-lg-4 delivery_item">
+			   	<i class="fas fa-gift"></i>
+			      <!-- <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+			      <h2>Подарок</h2>
+			      <p>Мы привезем букет в указанное время и место в качестве подарка от вас</p>
+			   </div>
+			   <!-- /.col-lg-4 -->
+		   </div>	
 		</div>
 		<!-- доставкаend -->
 
-		<div class="title" style="text-align: center;margin: 80px;"><h1 class="display-4">отзывы</h1></div>
+		
 		<!-- отзывы -->
-		<ul class="list-unstyled comments">
-		  <li class="media my-4 comment">
-		    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
-		    <div class="media-body">
-		      <h5 class="mt-0 mb-1">Ирина Кровчук</h5>
-		      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-		    </div>
-		  </li>
-		  <li class="media my-4 comment">
-		    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
-		    <div class="media-body">
-		      <h5 class="mt-0 mb-1">Игорь Михаиленко</h5>
-		      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-		    </div>
-		  </li>
-		  <li class="media my-4 comment">
-		    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
-		    <div class="media-body">
-		      <h5 class="mt-0 mb-1">Олег Береза</h5>
-		      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-		    </div>
-		  </li>
-		  <li class="media my-4 comment">
-		    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
-		    <div class="media-body">
-		      <h5 class="mt-0 mb-1">Диана Лушкова</h5>
-		      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-		    </div>
-		  </li>
-		</ul>
+		<div class="row justify-content-center" style="padding-bottom: 80px;">
+			<div class="title" style="text-align: center;margin: 80px;width: 100%"><h1 class="display-4">отзывы</h1></div>
+			<div class="col-lg-8 col-md-8 col-sm-12 row">
 
-		<div class="title" style="margin: 80px 0px;margin-bottom:40px"><h1 class="display-5">добавить отзыв</h1></div>
-		<form>
-		  <div class="form-group">
-		    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Имя">
-		    <br>
-			<input class="form-control" type="text" placeholder="Повод">
-		  </div>
+				<div class="col-12">
+					<ul class="list-unstyled comments-list">
+					  <li class="media my-4 comment-list_item">
+					    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
+					    <div class="media-body ">
+					      <h5 class="mt-0 mb-1">Ирина Кровчук</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					  <li class="media my-4 comment-list_item">
+					    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">Игорь Михаиленко</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					  <li class="media my-4 comment-list_item">
+					    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">Олег Береза</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					  <li class="media my-4 comment-list_item">
+					    <!-- <img class="mr-3" src=".../64x64" alt="Generic placeholder image"> -->
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">Диана Лушкова</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					</ul>
+				</div>
 
-		  <div class="form-group">
-		    <label for="exampleFormControlTextarea1">Комментарий</label>
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите ваш отзыв"></textarea>
-		  </div>
-		  <button type="submit" class="btn btn-primary">Отправить</button>
-		</form>
+				<div class="col-12 justify-content-center add_comment">
+					<div class="title" style="margin: 80px 0px;margin-bottom:40px"><h1 class="display-5">добавить отзыв</h1></div>
+					
+						<form>
+						  <div class="form-group">
+						    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Имя">
+						    <br>
+							<input class="form-control" type="text" placeholder="Повод">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="exampleFormControlTextarea1">Комментарий</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите ваш отзыв"></textarea>
+						  </div>
+						  <button type="submit" class="btn btn-primary">Отправить</button>
+						</form>			
+				</div>
+
+				
+			</div>
+		</div>
 		<!-- отзывы -->
 
 
 		<!-- контакты -->
-		<div class="title" style="text-align: center;margin: 80px"><h1 class="display-4">контакты</h1></div>
-		<div class="row justify-content-center contacts">
+		<!-- <div class="title" style="text-align: center;margin: 80px"><h1 class="display-4">контакты</h1></div> -->
+		<div class="row justify-content-center contacts" style="background: url('http://kaminfeniks.com/assets/media-demo/properties/1168x550/15126414515a2913abce6b0.jpg');">
+			<div class="title" style="text-align: center;margin: 80px;width: 100%"><h1 class="display-4">контакты</h1></div>
+			<div class="col-lg-8 col-md-8 col-sm-12 row">
 
-			<div class="col-4">
-				<div class="phones" style="">
-					<h3>Телефоны:</h3>
-					<!-- <p> -->
-						<h1 style="font-size:20px">(093) 010 38 88</h1>
-						<h1 style="font-size:20px">(093) 010 38 88</h1>
-					<!-- </p> -->
-				</div>
 				
-				<div class="contacts_emails">
-					<h3>flowers@gmail.com</h3>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 contacts_first">
+					<div class="contacts_send-email">
+						<div class="form-group">
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Отравьте нам письмо"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Отправить</button>
+					</div>
+
+					<div class="contacts_phone-form" style="margin: 20px 0px">
+						<form>
+						  <div class="form-group">
+						  	<label for="contacts_phone-form-input">Заказать обратный звонок</label>
+						    <input type="text" class="form-control" id="contacts_phone-form-input" placeholder="Введите номер телефона">
+						  </div>
+						  <button type="submit" class="btn btn-primary">Заказать</button>
+						</form>
+					</div>
 				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 contacts_second">
+					<div class="phones" style="">
+						<h3>Телефоны:</h3>
+						<!-- <p> -->
+							<h1 style="font-size:20px">(093) 010 38 88</h1>
+							<h1 style="font-size:20px">(093) 010 38 88</h1>
+						<!-- </p> -->
+					</div>
+								
+					<div class="contacts_emails">
+						<h3>flowers@gmail.com</h3>
+					</div>
+								
+					<div class="socials">
+						<div class="contacts_socials_item">
+							<i class="fab fa-instagram"></i>
+						</div>
+						<div class="contacts_socials_item">
+							<i class="fab fa-facebook"></i>
+						</div>
+					</div>
+				</div>
+
+
 				
-				<div class="socials">
-					<div class="contacts_socials_item">
-						<i class="fab fa-instagram"></i>
-					</div>
-					<div class="contacts_socials_item">
-						<i class="fab fa-facebook"></i>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-8">
-				<div class="contacts_send-email">
-					<div class="form-group">
-					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Отравьте нам письмо"></textarea>
-					</div>
-					<button type="submit" class="btn btn-primary">Отправить</button>
-				</div>
-
-				<div class="contacts_phone-form" style="margin: 20px 0px">
-					<form>
-					  <div class="form-group">
-					  	<label for="contacts_phone-form-input">Заказать обратный звонок"</label>
-					    <input type="text" class="form-control" id="contacts_phone-form-input" placeholder="Введите номер телефона">
-					  </div>
-					  <button type="submit" class="btn btn-primary">Заказать</button>
-					</form>
-				</div>
-
-			</div>
+			</div><!-- col-8 row -->
 		</div>
+
+
+
 		
 
 		<!-- номера телефонов (кликабельные) 
@@ -337,11 +409,32 @@
 	</div><!-- container -->
 
 	<div class="row footer">
-		Дублируем кликабельное лого для возврата наверх, 
+<!-- 		Дублируем кликабельное лого для возврата наверх, 
 		часы работы, 
 		переход в каталог, 
 		регистрация/вход. 
-		Ссылки на соц.сети - кликабельные иконки.
+		Ссылки на соц.сети - кликабельные иконки. -->
+		<div class="col-2">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo_new_min.png" alt="logo" width="50px">
+			</a>
+		</div>
+		<div class="col-2">
+			<p>Часы работы:</p><p style="    font-weight: 600;"> 9:00 - 20:00</p>
+		</div>
+		<div class="col-2">
+			<i class="fas fa-shopping-cart"></i>
+    		<i class="fas fa-user"></i>
+		</div>
+		<div class="col-2">
+			<a href="">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<br>
+			<a href="">
+				<i class="fab fa-facebook"></i>
+			</a>
+		</div>
 	</div>
 
 	<!-- scripts -->

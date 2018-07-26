@@ -84,7 +84,9 @@ body {
 }
 
 
-.title{}
+.title{
+	width: 100%;
+}
 .title h1{
 	text-transform: capitalize;
 }
@@ -98,6 +100,10 @@ body {
 }
 .burger-btn:focus{
 	outline:none;
+}
+
+.carousel.slide{
+	padding-top: 85px;
 }
 
 .carousel-indicators li{
@@ -130,6 +136,17 @@ body {
 .hits_item img{
 	-webkit-border-radius: initial;
             border-radius: initial;
+        
+    position: relative;
+}
+.hits_item p{
+	position: absolute;
+    width: 100px;
+    bottom: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 20px;
 }
 .hits_row_first .hits_item:nth-child(1) img{	
 	border-top-left-radius: calc(.25rem - 1px);
@@ -161,18 +178,36 @@ body {
  -o-transform: scale(1.1);
  }
 /*отзывы*/
-.comments{}
-.comment{
+.comments-list{}
+.comment-list_item{
 	background: #FFF;
 	-webkit-border-radius: calc(.25rem - 1px);
 	        border-radius: calc(.25rem - 1px);
 	padding: 15px;
 }
+
+.delivery{
+	text-align: center;
+	margin: 120px 0px;
+	margin-top:80px;
+	background: url('http://kaminfeniks.com/assets/media-demo/properties/1168x550/15126414515a2913abce6b0.jpg');
+	padding-bottom: 80px;
+	margin-bottom: 40px;
+}
+.delivery .delivery_item{}
+.delivery .delivery_item i{
+	font-size: 80px;
+}
+
+.add_comment{}
 /*отзывы*/
 
 
 .contacts{
-	margin-bottom: 80px;
+	padding-bottom: 80px;
+}
+.contacts .contacts_second{
+	text-align: end;
 }
 .contacts .phones{
 	/* //margin-bottom: 60px; */
@@ -193,6 +228,46 @@ body {
 	color: #B78933;
 }
 .footer{
-	height: 60px;
+	/* height: 60px; */
 	background: #000;
+}
+
+.btn{
+	background: #B78933;
+    border-color: #845e17;
+}
+
+.btn:hover{
+	background: #845e17;
+    border-color: #845e17;
+}
+
+/* sm */
+@media (max-width: 576px)
+{
+	.carousel.slide{
+		padding-top: 65px;
+	}
+	.menu .navbar-nav.work_data,
+	.menu .navbar-nav.socials{
+		display: none;
+	}
+	.contacts_first{}
+	.contacts_second{
+		padding-top: 40px;
+		text-align: center !important;
+	}
+	.contacts .socials .contacts_socials_item i {
+    	font-size: 80px;
+	}
+	/*длины кнопок в мобильной*/
+	.contacts_phone-form .btn,
+	.contacts_send-email .btn,
+	.add_comment .btn{
+		width: 100%;
+	}
+
+	.add_comment .title{
+		text-align: center;
+	}
 }
